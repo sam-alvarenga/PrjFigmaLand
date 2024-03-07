@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    max-width: 1777px;
+    margin: auto;
+}
+
+.container {
+   width: 80%;
+   margin: 0 auto ;
+}
+
+header {
+    background-image: url(../assets/_img/top-banner.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 930px;
+    padding-top: 16px
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center; 
+    border: 2px solid red;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav ul a {
+    padding: 0 25px;
+    color: #fff;
+}
+
+.social-media {
+ padding: 0 25px;
+}
